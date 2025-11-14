@@ -1,0 +1,18 @@
+[
+    "age",
+    "number_of_dependants",
+    "bmi_category",
+    "income_lakhs",
+    "insurance_plan",
+    "genetical_risk",
+    "normalized_risk_score",
+    "gender_male",
+    "region_northwest",
+    "region_southeast",
+    "region_southwest",
+    "marital_status_unmarried",
+    "smoking_status_occasional",
+    "smoking_status_regular",
+    "employment_status_salaried",
+    "employment_status_self-employed"
+]

@@ -1,0 +1,17 @@
+Column,VIF
+age,4.608490455133939
+number_of_dependants,4.670618952213961
+bmi_category,3.382992101491642
+income_level,12.447040426603273
+income_lakhs,11.183835591870464
+insurance_plan,3.5837470415496218
+normalized_risk_score,2.6939270151681183
+gender_male,2.413816284617148
+region_northwest,2.1049910131996836
+region_southeast,2.926351460836178
+region_southwest,2.6739075239927286
+marital_status_unmarried,3.501086429229643
+smoking_status_occasional,1.2733091862391828
+smoking_status_regular,1.7770619750024659
+employment_status_salaried,2.3863488203262566
+employment_status_self-employed,2.1375605377935485

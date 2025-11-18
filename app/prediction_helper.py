@@ -1,12 +1,24 @@
 # codebasics ML course: codebasics.io, all rights reserverd
 
+from pathlib import Path
 import pandas as pd
 import joblib
 
-model_young = joblib.load("artifacts/model_young.joblib")
-model_rest = joblib.load("artifacts/model_rest.joblib")
-scaler_young = joblib.load("artifacts/scaler_young.joblib")
-scaler_rest = joblib.load("artifacts/scaler_rest.joblib")
+# ---------------------------------------------------------
+# Fix paths after moving into app/ folder
+# ---------------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent      # .../ml-project-premium-prediction/app
+REPO_ROOT = BASE_DIR.parent                     # .../ml-project-premium-prediction
+ARTIFACTS_DIR = REPO_ROOT / "artifacts"
+
+model_young = joblib.load(ARTIFACTS_DIR / "model_young.joblib")
+model_rest = joblib.load(ARTIFACTS_DIR / "model_rest.joblib")
+scaler_young = joblib.load(ARTIFACTS_DIR / "scaler_young.joblib")
+scaler_rest = joblib.load(ARTIFACTS_DIR / "scaler_rest.joblib")
+#model_young = joblib.load("artifacts/model_young.joblib")
+#model_rest = joblib.load("artifacts/model_rest.joblib")
+#scaler_young = joblib.load("artifacts/scaler_young.joblib")
+#scaler_rest = joblib.load("artifacts/scaler_rest.joblib")
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {

@@ -79,7 +79,7 @@ ml-project-premium-prediction
 │
 ├── data/
 │   ├── raw/                         # NOT uploaded (proprietary) – contains .gitkeep
-│   └── processed/                   # Cleaned & processed dataset
+│   └── processed/                   # Cleaned & processed dataset NOT uploaded (proprietary)
 │
 ├── outputs/                         # Analysis outputs from notebooks/scripts
 │   ├── figures/                     # All visualizations, plots, charts
@@ -178,15 +178,14 @@ Users enter their details and receive an instant premium estimate.
 
 # **Data Privacy Notice**
 
-The **raw dataset from CodeBasics Bootcamp is proprietary** and is **NOT included in this repository**.
+The **dataset from CodeBasics Bootcamp is proprietary** and is **NOT included in this repository**.
 
 To comply with licensing:
 
-* `data/raw/` is included in `.gitignore`
+* `data/raw/` and `data/processed/` are included in `.gitignore`
 * A placeholder `.gitkeep` file preserves the folder structure
-
-Only processed and generated data is stored in the repo.
-
+* No real data (raw or processed) is included in this repository
+* Only code, documentation, and synthetic or sample placeholder files are stored here
 ---
 
 # **How to Run Locally**

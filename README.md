@@ -224,7 +224,7 @@ streamlit run app/main.py
 
 # **Acknowledgements**
 
-* **CodeBasics Bootcamp** for project structure and storyline
+* **CodeBasics Team** for project structure and storyline
 * **Dhaval Patel, Hemanand Vadivel & team** for industry-oriented guidance
 * The fictional **AtliQ.ai** team for the project narrative
 

@@ -244,7 +244,6 @@ Aspiring Data Scientist · CodeBasics Bootcamp
 
 Copyright (C) Codebasics Inc. All rights reserved.
 
-This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author.
+This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
 
-Attribution must be given in all copies or substantial portions of the software.
 ---

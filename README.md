@@ -234,7 +234,7 @@ streamlit run app/main.py
 
 **Ruchitha Uppuluri**
 
-Aspiring Data Scientist · CodeBasics Bootcamp
+Data Scientist · CodeBasics Bootcamp
 
 🔗 *www.linkedin.com/in/ruchithauppuluri*
 
